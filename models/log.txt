@@ -1,0 +1,21 @@
+2026-01-27 00:59:02,182 Running on GPU
+2026-01-27 00:59:02,186 Found 5 citations for tools or databases
+2026-01-27 00:59:02,186 Query 1/1: moss_sas6_c5589_0 (length 870)
+2026-01-27 00:59:03,227 Could not generate input features moss_sas6_c5589_0: Invalid character in the sequence: _
+Traceback (most recent call last):
+  File "/content/colabfold/batch.py", line 1361, in run
+    = generate_input_feature(query_seqs_unique, query_seqs_cardinality, unpaired_msa, paired_msa,
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/colabfold/batch.py", line 845, in generate_input_feature
+    feature_dict = build_monomer_feature(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/colabfold/batch.py", line 722, in build_monomer_feature
+    **pipeline.make_sequence_features(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/alphafold/data/pipeline.py", line 40, in make_sequence_features
+    features['aatype'] = residue_constants.sequence_to_onehot(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/alphafold/common/residue_constants.py", line 581, in sequence_to_onehot
+    raise ValueError(f'Invalid character in the sequence: {aa_type}')
+ValueError: Invalid character in the sequence: _
+2026-01-27 00:59:03,231 Done
