@@ -301,7 +301,7 @@ Repository: https://github.com/djabbat/moss-sas6-alphafold
 
 ---
 
-*Last updated: January 2024*  
+*Last updated: January 2026*  
 *Prediction generated with AlphaFold2 via ColabFold*  
 *Project conceived and executed independently by Jaba Tkemaladze*  
 
