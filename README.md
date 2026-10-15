@@ -1,5 +1,7 @@
 # SAS-6 Moss Protein Structure Prediction Project
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23404816.svg)](https://doi.org/10.5281/zenodo.23404816)
+
 ## 📋 Project Overview
 **AlphaFold2 prediction of SAS-6 (Spindle assembly abnormal protein 6) from *Physcomitrium patens* (moss).**
 
