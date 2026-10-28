@@ -1,5 +1,7 @@
 # SAS-6 Moss Protein Structure Prediction Project
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/djabbat/badge.svg)](https://hub.xerj.org/contributors/djabbat)
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23405621.svg)](https://doi.org/10.5281/zenodo.23405621)
 
 ## 📋 Project Overview
